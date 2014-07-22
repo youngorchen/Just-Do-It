@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.2.6)
     bcrypt-ruby (2.1.4)
+    bcrypt-ruby (2.1.4-x86-mingw32)
     data_objects (0.10.6)
       addressable (~> 2.1)
     datamapper (1.1.0)
@@ -51,7 +52,11 @@ GEM
       dm-core (~> 1.1.0)
     do_postgres (0.10.6)
       data_objects (= 0.10.6)
+    do_postgres (0.10.6-x86-mingw32)
+      data_objects (= 0.10.6)
     do_sqlite3 (0.10.6)
+      data_objects (= 0.10.6)
+    do_sqlite3 (0.10.6-x86-mingw32)
       data_objects (= 0.10.6)
     fastercsv (1.5.4)
     json (1.4.6)
@@ -59,7 +64,7 @@ GEM
     sass (3.1.2)
     sinatra (1.2.6)
       rack (~> 1.1)
-      tilt (< 2.0, >= 1.2.2)
+      tilt (>= 1.2.2, < 2.0)
     slim (1.0.1)
       temple (~> 0.3.0)
       tilt (~> 1.2)
@@ -70,6 +75,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   datamapper
